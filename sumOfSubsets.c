@@ -32,7 +32,7 @@ void main()
 	printf("\n Enter the no. of elements: ");
 	scanf("%d",&n);
 	printf("\n Enter the of elements: ");
-	for(i=0;i<size;i++)
+	for(i=0;i<n;i++)
 		scanf("%d",&weights[i]);
    
 	subsetSum(weights, subSet, n, 0, 0, 0, sum);
