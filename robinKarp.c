@@ -49,3 +49,10 @@ void main ()
    if (flag==0)
    	printf("\n Pattern not found\n");
 }
+
+/*
+hash value for pattern(p) = Σ(v * dm-1) mod 13 
+                      = ((3 * 102) + (4 * 101) + (4 * 100)) mod 13 
+                      = 344 mod 13 
+                      = 6
+*/
